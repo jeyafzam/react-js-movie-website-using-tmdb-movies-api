@@ -1,0 +1,158 @@
+.PricingList_section {
+  padding: 4.375em 0;
+}
+.PricingList_section .plan {
+  padding: 1.875em;
+  width: 100%;
+  background-color: #28282d;
+  border-radius: 0.5em;
+  border: 0.0625em solid rgba(255, 255, 255, 0.05);
+}
+.PricingList_section .pricingtitle {
+  padding-left:0.5375em;
+  font-size: 2.2em;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 0.9375em;
+}
+
+.PricingList_section .plan_mt0 {
+  margin-top: 0;
+}
+.PricingList_section .plan .plan_title {
+  font-size: 1.625em;
+  line-height: 100%;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 1.3em;
+}
+.PricingList_section .plan .plan_price {
+  font-size: 1.625em;
+  line-height: 100%;
+  color: #ff55a5;
+  font-weight: 400;
+  z-index: 1;
+  right: 0.875em;
+}
+
+.PricingList_section .plan .plan_list {
+  width: 100%;
+  margin-bottom: 1.055em;
+}
+.PricingList_section .plan .plan_list li {
+  width: 100%;
+  font-size: 1em;
+  color: #c7c7c7;
+  position: relative;
+  padding-left: 0.9375em;
+  margin-bottom: 0.9375em;
+}
+.PricingList_section .plan .plan_list li:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0.25em;
+  height: 0.25em;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  left: 0;
+  top: 50%;
+  margin-top: -0.125em;
+}
+.PricingList_section .plan.plan_premium:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0.125em;
+  display: block;
+  background: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  box-shadow: 0 0 20px 0 rgba(255, 88, 96, 0.5);
+}
+.PricingList_section .plan .plan_btn {
+  height: 56px;
+  width: 100%;
+  border-radius: 0.5em;
+  background: linear-gradient(90deg, #ff5860 0%, #ff55a5 100%);
+  box-shadow: 0 0 1em 0 rgba(255, 88, 96, 0.3);
+  position: relative;
+}
+
+.PricingList_section .plan.plan_mt0 .plan_btn span {
+  font-size: 0.9em;
+}
+.PricingList_section .plan .plan_btn span {
+  font-size: 1.05em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  z-index: 2;
+}
+.PricingList_section .plan .plan_btn:hover {
+  box-shadow: 0 0 1.5em 0 rgba(255, 88, 96, 0.6);
+}
+@media screen and (max-width: 75em) {
+  .PricingList_section .container {
+    max-width: 60em;
+    margin: 0 auto;
+  }
+  .PricingList_section .pricingtitle{
+    font-size: 2em;
+  }
+}
+@media screen and (max-width: 63em) {
+  .PricingList_section .container {
+    max-width: 45em;
+    margin: 0 auto;
+  }
+  .PricingList_section .col-4.one {
+    order: 2;
+    width: 50%;
+    padding-left: 0;
+  }
+  .PricingList_section .col-4.three {
+    order: 2;
+    width: 50%;
+    padding-left: 0;
+  }
+  .PricingList_section .col-4.tow {
+    width: 100%;
+    margin-bottom: 1.5625em;
+    padding-left: 0;
+  }
+  .PricingList_section .pricingtitle{
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 49em) {
+  .PricingList_section .container {
+    max-width: 33em;
+    margin: 0 auto;
+  }
+  .PricingList_section .col-4.one {
+    order: 1;
+    width: 100%;
+    margin-bottom: 1.5625em;
+  }
+  .PricingList_section .col-4.tow {
+    order: 2;
+    width: 100%;
+  }
+  .PricingList_section .col-4.three {
+    order: 3;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 33em) {
+  .PricingList_section .col-4.one,
+  .PricingList_section .col-4.tow,
+  .PricingList_section .col-4.three {
+    padding-left: 0.9375em;
+  }
+  .PricingList_section .pricingtitle{
+    padding-left: 0.9375em;
+  }
+}

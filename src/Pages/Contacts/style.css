@@ -1,0 +1,178 @@
+.section.contacts {
+  padding: 4.375em 0;
+}
+.section.contacts .col-7 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.section.contacts .col-4 {
+  padding-right: 0;
+}
+.section.contacts .section_title_contacts {
+  font-size: 2.25em;
+  color: #fff;
+  font-weight: 300;
+}
+.section.contacts .section_text {
+  color: #c7c7c7;
+  font-size: 1em;
+  line-height: 1.625em;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+  font-weight: 400;
+}
+.section.contacts .contacts_list {
+  margin-top: 1.5625em;
+}
+.section.contacts .contacts_list li {
+  margin-bottom: 0.75em;
+}
+.section.contacts .contacts_list li .link {
+  font-size: 1em;
+  line-height: 1.625em;
+  color: #c7c7c7;
+  font-weight: 400;
+}
+.section.contacts .contacts_list li .link:hover {
+  color: #ff55a5;
+}
+.section.contacts .contacts_social {
+  margin-top: 1.5625em;
+}
+.section.contacts .contacts_social li {
+  margin-right: 1.25em;
+}
+
+.section.contacts .contacts_social li .link i {
+  width: 1.25em;
+  height: 1.25em;
+  color: #c7c7c7;
+  font-size: 1.0625em;
+  transition: color 0.5s ease;
+}
+
+.section.contacts .contacts_social li .link i:hover {
+  color: #ff55a5;
+}
+.section.contacts .col-7 {
+  margin-left: 8.33333333%;
+}
+.section.contacts .col-7 .sign_form {
+  background: #28282d;
+  width: 100%;
+  border-radius: 0.5em;
+}
+.section.contacts .col-7 .sign_form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0.125em;
+  display: block;
+  background: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  box-shadow: 0 0 1.25em 0 rgba(255, 88, 96, 0.5);
+}
+
+.section.contacts .col-7 .sign_form_contacts {
+  max-width: 100%;
+  padding: 1.875em;
+  margin-top: 0;
+  border: 0.0625em solid rgba(255, 255, 255, 0.05);
+  border-top: none;
+  box-shadow: none;
+}
+.section.contacts .col-7 .sign_form_contacts .col-6,
+.section.contacts .col-7 .sign_form_contacts .col-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.section.contacts .col-7 .sign_form_contacts .col-6.one {
+  padding-right: 1.5625em;
+}
+.section.contacts .col-7 .sign_form_contacts .sign_group .sign_textarea {
+  max-width: 100%;
+  background-color: #2b2b31;
+  border: 0.0625em solid transparent;
+  height: 7.5em;
+  color: #fff;
+  font-size: 1em;
+  padding: 0.9375em 1.25em;
+  resize: none;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 0.5em;
+  appearance: none;
+  box-shadow: none;
+  transition: all 1s ease;
+}
+.section.contacts .col-7 .sign_form_contacts .sign_group .sign_textarea:hover {
+  border: 0.0625em solid #ff69b4;
+}
+.section.contacts .col-7 .sign_form_contacts .sign_group .sign_textarea:focus {
+  border: 0.0625em solid #ff69b4;
+  outline: none;
+}
+.section.contacts
+  .col-7
+  .sign_form_contacts
+  .sign_group
+  .sign_textarea::placeholder {
+  color: #c7c7c7;
+  font-size: 1em;
+}
+.section.contacts .col-7 .sign_form_contacts .signbtn {
+  height: 3em;
+  border-radius: 0.5em;
+  background: linear-gradient(90deg, #ff5860 0%, #ff55a5 100%);
+  box-shadow: 0 0 1em 0 rgba(255, 88, 96, 0.3);
+  width: 10em;
+  transition: all 1s ease;
+}
+.section.contacts .col-7 .sign_form_contacts .signbtn:hover {
+  box-shadow: 0 0 1.5em 0 rgba(255, 88, 96, 0.6);
+}
+section.contacts .col-7 .sign_form_contacts .signbtn span {
+  font-size: 0.875em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+@media screen and (max-width: 75em) {
+  .section.contacts .container {
+    max-width: 60em;
+    margin: 0 auto;
+  }
+  .section.contacts .col-7 .sign_form_contacts .col-6,
+  .section.contacts .col-7 .sign_form_contacts .col-6.one {
+    width: 100%;
+  }
+  section.contacts .col-4 {
+    width: 41.66%;
+  }
+  section.contacts .col-7 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 63em) {
+  .section.contacts .container {
+    max-width: 45em;
+    margin: 0 auto;
+  }
+  section.contacts .col-4 {
+    width: 100%;
+    margin-bottom: 3.75em;
+  }
+  .section.contacts .col-7 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .section.contacts .col-7 .sign_form_contacts .col-6.one {
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 49em) {
+  .section.contacts .container {
+    max-width: 33em;
+    margin: 0 auto;
+  }
+}

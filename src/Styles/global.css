@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@300;400;500&display=swap");
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  overflow-x: hidden;
+}
+body {
+  font-family: "Open Sans";
+  background-color: #2b2b31;
+  padding-top: 4.375em;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -webkit-transition: all 1s;
+}
+a:hover,
+a:active,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+ol,
+ul {
+  list-style: none;
+}
+
+.ov {
+  overflow: hidden;
+}
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cp {
+  cursor: pointer;
+}
+.section-padding {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+.full-width {
+  width: 100%;
+  height: auto;
+}
+.flex {
+  display: flex;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-col {
+  flex-direction: column;
+}
+.text-center {
+  text-align: center;
+}
+.align-center {
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.space-between {
+  justify-content: space-between;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+[class^="col-"] {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.button:focus {
+  outline: none;
+}
+.button {
+  background: none;
+  border: none;
+  outline: 0;
+  text-transform: none;
+  transition: all 1s ease;
+}
+.header_dropdown_menu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  display: block;
+  background: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  box-shadow: 0 0 20px 0 rgba(255, 88, 96, 0.5);
+}
+.bg_color_hedear {
+  background-color: #28282d;
+}
+.bg_color_hedear:hover {
+  background-color: #2b2b31;
+}
+.block {
+  display: block;
+}
+.width {
+  width: 100%;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.input {
+  outline: 0;
+}
+/* Styling the scrollbar for Webkit browsers (like Chrome and Safari) */
+::-webkit-scrollbar {
+  width: 20px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #2b2b31; /* Background of the scrollbar, matching the site background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #444444; /* Color of the scrollbar thumb (scroll handle) */
+  border-radius: 5px; /* Rounding the scrollbar thumb */
+  border: 2px solid #2b2b31; /* Border to blend with the site's background */
+}
+/* Styling the scrollbar for Firefox */

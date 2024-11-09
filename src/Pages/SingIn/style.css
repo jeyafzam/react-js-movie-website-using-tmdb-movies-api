@@ -1,0 +1,190 @@
+.section_bg {
+  background-image: url(../../../public/images/section__bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+.sign_content {
+  width: 100%;
+  min-height: 100vh;
+  padding: 2.5em;
+}
+.sign_form {
+  background: #28282d;
+  box-shadow: 0 0.3125em 1.5625em 0 rgba(0, 0, 0, 0.2);
+  padding: 2.7em 5em;
+  width: 100%;
+  max-width: 27.5em;
+  border-radius: 0.5em;
+}
+
+.sign_form::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0.125em;
+  display: block;
+  background: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  box-shadow: 0 0 1.25em 0 rgba(255, 88, 96, 0.5);
+  overflow: hidden;
+}
+.sign_logo {
+  margin-bottom: 2.5em;
+}
+.sign_logo img {
+  max-width: 8.125em;
+}
+
+img svg {
+  vertical-align: middle;
+}
+.sign_group {
+  margin-bottom: 1.25em;
+  width: 100%;
+}
+.sign_input {
+  background-color: #2b2b31;
+  border: 0.0625em solid transparent;
+  height: 3.125em;
+  color: #fff;
+  font-size: 1em;
+  width: 100%;
+  border-radius: 0.5em;
+  padding: 0 1.25em;
+  transition: all 1s;
+}
+.sign_input:hover {
+  border: 0.0625em solid #ff69b4;
+}
+.sign_input:focus {
+  border: 0.0625em solid #ff69b4;
+  outline: none;
+}
+.sign_input::placeholder {
+  color: #c7c7c7;
+  opacity: 1;
+}
+
+.sign_group_checkbox {
+  width: 100%;
+  text-align: left;
+}
+.sign_group_checkbox input:not(:checked) + label,
+.sign_group_checkbox input:checked + label {
+  font-size: 0.875em;
+  color: #c7c7c7;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  cursor: pointer;
+  padding-left: 2.125em;
+  line-height: 1.375em;
+  margin: 0;
+}
+.sign_group_checkbox input:not(:checked) {
+  position: absolute;
+  left: -624.9375em;
+}
+
+.sign_group_checkbox input:checked {
+  position: absolute;
+  left: -624.9375em;
+}
+label {
+  display: inline-block;
+}
+
+.sign_group_checkbox label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.25em;
+  height: 1.25em;
+  content: "";
+  position: absolute;
+  transition: all 0.5s;
+  background-color: #2b2b31;
+  border-radius: 0.125em;
+}
+
+.sign_group_checkbox input:checked + label:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.25em;
+  height: 1.25em;
+  background: url(../../../public/images/check.svg) no-repeat center;
+  background-size: 1.25em auto;
+  border-radius: 0.125em;
+  transition: 3s;
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.sign_text {
+  display: block;
+  margin-top: 1.25em;
+  font-size: 0.875em;
+  line-height: 1.5em;
+  color: #c7c7c7;
+}
+.sign_text a {
+  color: #ff55a5;
+}
+.sign_text a:hover {
+  color: #ff5860;
+}
+.sign_btn {
+  height: 3.9em;
+  width: 100%;
+  border-radius: 0.5em;
+  background: linear-gradient(90deg, #ff5860 0%, #ff55a5 100%);
+  box-shadow: 0 0 1em 0 rgba(255, 88, 96, 0.3);
+}
+.sign_btn:hover {
+  box-shadow: 0 0 1.5em 0 rgba(255, 88, 96, 0.6);
+}
+.sign_btn:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  border-radius: 0.5em;
+  opacity: 1;
+}
+.sign_btn span {
+  font-size: 1.05em;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+  z-index: 2;
+}
+
+.privacy {
+  color: #ff55a5;
+}
+.privacy:hover {
+  color: #ff5860;
+}
+@media screen and (max-width: 48em) {
+  .sign_content {
+    padding: 0;
+  }
+  .sign_form {
+    padding: 2.5em 1.25em;
+  }
+}

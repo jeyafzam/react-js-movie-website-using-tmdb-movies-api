@@ -1,0 +1,75 @@
+.work_section {
+  padding: 4.375em 0;
+}
+.work_section .section_title {
+  font-size: 2.25em;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 0.625em;
+}
+.work_section .how {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 1.5em;
+  padding-right: 1em;
+}
+.work_section .how_number {
+  font-size: 3.125em;
+  line-height: 100%;
+  font-weight: 700;
+  margin-bottom: 0.4375em;
+  display: inline-block;
+  background-image: -webkit-linear-gradient(0deg, #ff55a5 0%, #ff5860 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ff5860;
+}
+
+.work_section .how_title {
+  font-size: 1.25em;
+  color: #fff;
+  margin-bottom: 0.9375em;
+}
+.work_section .how_text {
+  color: #c7c7c7;
+  font-size: 1em;
+  line-height: 1.625em;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 75em) {
+    .work_section .container {
+        max-width: 60em;
+        margin: 0 auto;
+      }
+}
+@media screen and (max-width: 63em){
+    .work_section .container {
+        max-width: 45em;
+        margin: 0 auto;
+      }
+      .work_section .col-12{
+        padding-left: 0;
+      }
+      .work_section .col-4{
+        width: 100%;
+      }
+      .work_section .col-4{
+        padding-left: 0;
+      }
+}
+@media screen and (max-width: 49em) {
+    .work_section .container {
+        max-width: 33em;
+        margin: 0 auto;
+      }
+}
+@media screen and (max-width: 33em) {
+    .work_section .col-4,
+    .work_section .col-12{
+        padding-left: 15px;
+    }
+}

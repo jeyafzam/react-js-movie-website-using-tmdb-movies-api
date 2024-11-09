@@ -1,0 +1,101 @@
+.SeconderyLayout_section {
+  position: relative;
+  padding: 1.5em 0;
+}
+.section__bg {
+  background-image: url(../../../../public/images/section__bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 12.5em;
+}
+.SeconderyLayout_section .ss_p {
+  padding-left: 0;
+}
+.SeconderyLayout_section.section_first:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.125em;
+  display: block;
+  background: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  box-shadow: 0 0 1.25em 0 rgba(255, 88, 96, 0.5);
+}
+.SeconderyLayout_section .section_wrap {
+  width: 100%;
+  padding-right: 0.625em;
+}
+.SeconderyLayout_section .section_wrap .section_title_head {
+  font-size: 2.600em;
+  line-height: 3.125em;
+  color: #fff;
+  font-weight: 300;
+  padding-left: 0.1125em;
+}
+.SeconderyLayout_section .section_wrap .breadcrumbs {
+  margin-top: 0;
+}
+.SeconderyLayout_section .section_wrap .breadcrumbs .breadcrumbs_item {
+  font-size: 0.875em;
+  line-height: 1.625em;
+  color: #c7c7c7;
+  transition: 0.4s ease;
+  position: relative;
+}
+.SeconderyLayout_section .section_wrap .breadcrumbs .breadcrumbs_item a {
+  color: #c7c7c7;
+}
+.SeconderyLayout_section .section_wrap .breadcrumbs a:hover {
+  color: #ff55a5;
+}
+.breadcrumbs_item_one {
+  margin-right: 2.7em;
+}
+.breadcrumbs_item_one:before {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 2.5em;
+  bottom: 0;
+  top: 0.125em;
+  background: url(../../../../public/images/arrow-right.svg) no-repeat center;
+  background-size: 1.2em auto;
+}
+@media screen and (max-width: 75em) {
+  .SeconderyLayout_section .container {
+    max-width: 60em;
+    margin: 0 auto;
+  }
+  .SeconderyLayout_section .section_wrap .section_title_head {
+    font-size: 2em;
+    padding-left: 0.1125em;
+  }
+}
+@media screen and (max-width: 63em) {
+  .SeconderyLayout_section .container {
+    max-width: 45em;
+    margin: 0 auto;
+  }
+  .SeconderyLayout_section .section_wrap .section_title_head {
+    font-size: 1.7em;
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 49em) {
+  .SeconderyLayout_section .container {
+    max-width: 33em;
+    margin: 0 auto;
+  }
+  .SeconderyLayout_section .section_wrap .section_title_head {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 33em) {
+  .SeconderyLayout_section .ss_p {
+    padding-left: 15px;
+  }
+}

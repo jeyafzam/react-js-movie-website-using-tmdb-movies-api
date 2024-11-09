@@ -1,0 +1,133 @@
+.fqasection {
+  padding: 4.375em 0;
+}
+
+.gap {
+  gap: 1.875em;
+}
+.fqasection .col-12 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.accordion-item {
+  margin-top: 1.5em;
+  background-color: #28282d;
+  border-radius: 0.5em;
+  border: 0.0625em solid rgba(255, 255, 255, 0.05);
+}
+
+.accordion-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  min-height: 4.5em;
+  padding: 0.7em ;
+  color: #fff;
+  font-size: 1.125em;
+  line-height: 1.875em;
+  font-weight: 400;
+  text-align: left;
+  background-color: #28282d;
+}
+.accordion-header p {
+  padding-right: 3.125em;
+}
+
+.accordion-header .icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 2.5em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  background: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+  position: absolute;
+  right: 1.25em;
+  top: 1em;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  box-shadow: 0 0 1em 0 rgba(255, 88, 96, 0.3);
+}
+.accordion-header .icon:hover {
+  box-shadow: 0 0 1.5em 0 rgba(255, 88, 96, 0.6);
+}
+
+.accordion-header .icon .line {
+  position: absolute;
+  width: 0.8125em;
+  height: 0.125em;
+  background-color: #fff;
+}
+
+.accordion-header .icon .horizontal {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.accordion-header .icon .vertical {
+  left: 50%;
+  height: 0.8125em;
+  width: 0.125em;
+  transform: translateX(-50%);
+  transition: all 1s ease;
+}
+
+.accordion-header .icon .line.vertical.rotate {
+  transform: rotate(90deg);
+}
+
+.accordion-body {
+  font-family: "Open Sans", sans-serif;
+  color: #c7c7c7;
+  font-size:1em;
+  line-height: 1.625em;
+  margin-bottom: 0;
+
+  border-top:0.0625em solid rgba(255, 255, 255, 0.05);
+}
+.accordion-body p {
+  padding: 0.625em 1.25em;
+}
+@media screen and (max-width: 75em) {
+  .fqasection .container {
+    max-width: 60em;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 63em) {
+  .fqasection .container {
+    max-width: 45em;
+    margin: 0 auto;
+  }
+  .gap {
+    flex-direction: column;
+  }
+  .accordion-column.col-6 {
+    width: 100%;
+    padding-left: 0;
+  }
+  .fqasection .col-12 {
+    padding-left: 0;
+  }
+  .question_item {
+    padding-left: 1.25em;
+  }
+}
+@media screen and (max-width: 49em) {
+  .fqasection .container {
+    max-width: 33em;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 33em) {
+  .fqasection .col-12 {
+    padding-left: 1em;
+  }
+  p {
+    padding-left: 0;
+  }
+}
