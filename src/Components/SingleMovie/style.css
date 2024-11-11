@@ -850,6 +850,7 @@
   }
   .singleMovieSection_content .tab_content .photos img {
     width: 100%;
+    height: 20em;
   }
   .singleMovieSection_content
     .container.second_container
@@ -922,6 +923,9 @@
   .singleMovieSection_content .tab_content .reviews .review_sign_form {
     width: 26em;
   }
+  .singleMovieSection .iframe-container-col_6 .iframe-container .play-button {
+    right: 109%;
+  }
 }
 @media screen and (max-width: 27.8em) {
   .singleMovieSection_content .tab_content .reviews .review_list .review_item {
@@ -929,6 +933,12 @@
   }
   .singleMovieSection_content .tab_content .reviews .review_sign_form {
     width: 25.5em;
+  }
+ 
+}
+@media screen and (max-width: 26.875em) {
+  .singleMovieSection .iframe-container-col_6 .iframe-container .play-button {
+    right: 104%;
   }
 }
 @media screen and (max-width: 26em) {
@@ -938,6 +948,17 @@
   .singleMovieSection_content .tab_content .reviews .review_sign_form {
     width: 23em;
   }
+  .singleMovieSection .iframe-container-col_6 .iframe-container .play-button {
+    right: 104%;
+  }
+ 
+}
+
+@media screen and (max-width: 25em) {
+  .singleMovieSection .iframe-container-col_6 .iframe-container .play-button {
+    right: 109%;
+  }
+ 
 }
 @media screen and (max-width: 23.5em) {
   .singleMovieSection_content .tab_content .reviews .review_list .review_item {
@@ -945,5 +966,10 @@
   }
   .singleMovieSection_content .tab_content .reviews .review_sign_form {
     width: 21em;
+  }
+}
+@media screen and (max-width: 22.5em) {
+  .singleMovieSection .iframe-container-col_6 .iframe-container .play-button {
+    right: 112%;
   }
 }

@@ -46,10 +46,10 @@ const HeroSection = () => {
               </li>
               <li className="nav_item">
                 <button
-                  className={`button cp row  justify-start relative  align-center  ${
-                    activeTab === "New items" ? "active" : ""
+                  className={`button cp row  justify-start relative  align-center  documentaries  ${
+                    activeTab === "Documentaries" ? "active" : ""
                   }`}
-                  onClick={() => setActiveTab("New items")}
+                  onClick={() => setActiveTab("Documentaries")}
                 >
                   Documentaries
                 </button>

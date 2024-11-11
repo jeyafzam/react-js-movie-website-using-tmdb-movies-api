@@ -59,7 +59,7 @@ const SingIn = () => {
                 </button>
 
                 <span className="sign_text block">
-                  Don't have an account? <a  href="/singup">Sign up!</a>
+                  Don't have an account? <Link  to="/singup">Sign up!</Link>
                 </span>
 
                 <span className="sign_text block">

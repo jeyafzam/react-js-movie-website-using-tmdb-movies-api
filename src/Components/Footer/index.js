@@ -1,4 +1,3 @@
-
 import "./style.css";
 import { Link } from "react-router-dom";
 
@@ -43,10 +42,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer_content row justify-start ">
           <div className="col-4 logo">
-            <img
-              src="/images/logo.svg"
-              alt="FlixGo Logo"
-            />
+            <img src="/images/logo.svg" alt="FlixGo Logo" />
             <p className="footer_p">
               Movies & TV Shows, Online cinema, Movie database HTML Template.
               The perfect choice for your project.
@@ -111,7 +107,7 @@ const Footer = () => {
             </small>
             <ul className="flex ">
               <li>
-                <Link className="item-1" to="/">
+                <Link className="item-1" to="/privacypolicy">
                   Privacy policy
                 </Link>
               </li>

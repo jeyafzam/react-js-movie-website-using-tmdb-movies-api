@@ -43,7 +43,6 @@
   .movie_tv_cover
   img {
   z-index: 1;
-  
 }
 .movie_tv_catalog_section
   .Movie_tv_item
@@ -177,11 +176,11 @@
 .movie_tv_catalog_section .pagination_container .pagination_item {
   padding: 0.625em;
   border: 0.0625em solid rgba(255, 255, 255, 0.05);
-  border-radius:0.5em;
+  border-radius: 0.5em;
   background-color: #28282d;
 }
 .movie_tv_catalog_section .pagination_container .section_paginator_pages {
-  font-size:0.875em;
+  font-size: 0.875em;
   display: inline-flex;
   flex-direction: row;
   justify-content: center;
@@ -190,7 +189,7 @@
   color: #c7c7c7;
   font-weight: 400;
   cursor: default;
-  border-radius:0.5em;
+  border-radius: 0.5em;
   background-color: #28282d;
   border: 0.0625em solid rgba(255, 255, 255, 0.05);
   padding: 0 1.25em;
@@ -210,7 +209,7 @@
 
 .movie_tv_catalog_section .ant-pagination .ant-pagination-item {
   min-width: 2.5em;
-  height:2.3125em;
+  height: 2.3125em;
 }
 .movie_tv_catalog_section .ant-pagination .ant-pagination-item a {
   color: #fff;
@@ -239,19 +238,20 @@
     width: 25%;
   }
   .movie_tv_catalog_section
-  .Movie_tv_item
-  .Movie_tv_item_content
-  .movie_tv_cover img {
-  border-radius: 0.7em;
-}
-.movie_tv_catalog_section
-  .Movie_tv_item
-  .Movie_tv_item_content
-  .movie_tv_cover {
-  border-radius: 0.7em;
-  width: 13em;
-  height: 18em;
-}
+    .Movie_tv_item
+    .Movie_tv_item_content
+    .movie_tv_cover
+    img {
+    border-radius: 0.7em;
+  }
+  .movie_tv_catalog_section
+    .Movie_tv_item
+    .Movie_tv_item_content
+    .movie_tv_cover {
+    border-radius: 0.7em;
+    width: 13em;
+    height: 18em;
+  }
 }
 @media screen and (max-width: 63em) {
   .movie_tv_catalog_section .container {
@@ -261,18 +261,17 @@
   .movie_tv_catalog_section .col- {
     width: 33.33%;
   }
-  .movie_tv_catalog_section
-  .Movie_tv_item .col-{
+  .movie_tv_catalog_section .Movie_tv_item .col- {
     padding-left: 0;
   }
   .movie_tv_catalog_section
-  .Movie_tv_item
-  .Movie_tv_item_content
-  .movie_tv_cover {
-  border-radius: 0.7em;
-  width: 14em;
-  height: 18em;
-}
+    .Movie_tv_item
+    .Movie_tv_item_content
+    .movie_tv_cover {
+    border-radius: 0.7em;
+    width: 14em;
+    height: 18em;
+  }
 }
 @media screen and (max-width: 49em) {
   .movie_tv_catalog_section .container {
@@ -283,45 +282,72 @@
     width: 50%;
   }
   .movie_tv_catalog_section
-  .Movie_tv_item
-  .Movie_tv_item_content
-  .movie_tv_cover {
-  border-radius: 0.7em;
-  width: 15.3em;
-  height: 18em;
-}
-.movie_tv_catalog_section .ant-pagination-item {
-  display: none;
- 
+    .Movie_tv_item
+    .Movie_tv_item_content
+    .movie_tv_cover {
+    border-radius: 0.7em;
+    width: 15.3em;
+    height: 18em;
+  }
+  .movie_tv_catalog_section .ant-pagination-item {
+    display: none;
+
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: auto;
     margin-top: 50px;
+  }
+  .movie_tv_catalog_section .col-12 {
+    padding-left: 0;
+  }
 }
-.movie_tv_catalog_section .col-12{
-  padding-left: 0;
-}
-}
-@media screen and (max-width: 33em){
+@media screen and (max-width: 33em) {
   .movie_tv_catalog_section .container {
     max-width: 29em;
     margin: 0 auto;
   }
-  .movie_tv_catalog_section .col-12{
+  .movie_tv_catalog_section .col-12 {
     padding-left: 1em;
   }
-  .movie_tv_catalog_section
-  .Movie_tv_item .col-{
+  .movie_tv_catalog_section .Movie_tv_item .col- {
     padding-left: 1em;
   }
 
   .movie_tv_catalog_section
-  .Movie_tv_item
-  .Movie_tv_item_content
-  .movie_tv_cover {
-  border-radius: 0.7em;
-  width: 13em;
-  height: 17em;
+    .Movie_tv_item
+    .Movie_tv_item_content
+    .movie_tv_cover {
+    border-radius: 0.7em;
+    width: 13em;
+    height: 17em;
+  }
 }
+@media screen and (max-width: 26.875em) {
+  .movie_tv_catalog_section
+    .Movie_tv_item
+    .Movie_tv_item_content
+    .movie_tv_cover {
+    width: 11em;
+    height: 16em;
+  }
+}
+@media screen and (max-width: 24.375em) {
+  .movie_tv_catalog_section
+    .Movie_tv_item
+    .Movie_tv_item_content
+    .movie_tv_cover {
+    width: 10em;
+    height: 16em;
+  }
+}
+
+@media screen and (max-width: 23.5em) {
+  .movie_tv_catalog_section
+    .Movie_tv_item
+    .Movie_tv_item_content
+    .movie_tv_cover {
+    width: 9.5em;
+    height: 16em;
+  }
 }
